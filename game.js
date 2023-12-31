@@ -34,6 +34,12 @@ class VolumeSpaceProgram extends HTMLElement {
             <style>
 
                 canvas {
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+
+                canvas {
                     user-select: none;
                 }
 
