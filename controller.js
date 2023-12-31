@@ -6,6 +6,8 @@ export class Controller {
 
         canvas.addEventListener('mousedown', () => this.onMouseDown())
         canvas.addEventListener('mouseup', () => this.onMouseUp())
+        canvas.addEventListener('touchstart', () => this.onMouseDown())
+        canvas.addEventListener('touchend', () => this.onMouseUp())
     }
 
     onMouseDown() {
